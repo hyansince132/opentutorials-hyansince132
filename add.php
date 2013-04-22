@@ -73,7 +73,7 @@
                 <input type="button" value="white" onclick="document.getElementById('body').className='white'" />
             </div>
             <nav>
-            	<a href="./add.php">토픽추가</a>
+            	<a href=.add.php>토픽추가</a>
             	
                 <ul>
                     <li>
@@ -97,29 +97,17 @@
                 </ul>
             </nav>
             <article>
-                <h2>변수와 상수</h2>
-                <div>
-                    <p>
-                        변수란
-                    </p>
-                    <ul>
-                        <li>
-                            변하는 값
-                        </li>
-                        <li>
-                            x = 10 일 때 왼쪽항인 x는 오른쪽 항인 10에 따라 다른 값이 지정된다.
-                        </li>
-                    </ul>
-                    <p>
-                        상수란
-                    </p>
-                    <ul>
-                        <li>
-                            변하지 않는 값
-                        </li>
-                        <li>
-                            x = 10 일 때 오른쪽항인 10이 상수가 된다.
-                        </li>
+                <form action="addd.php" method="post"
+                <h1>
+                	제목
+                	<input type="text" name="title"
+                </h1>
+               
+               <h2>
+               	내용
+               	<textarea name=description></textarea>
+               </h2>
+               <input type= "submit">
                     </ul>
                 </div>
             </article>
